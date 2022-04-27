@@ -1,0 +1,135 @@
+nav {
+  background: #402f3f;
+  padding: 0;
+  border-bottom: 1px solid #271c26;
+  border-radius: 0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+.nav-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.navbar-logo-container {
+  margin-right: 16px;
+}
+.middle-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar-item {
+  padding-top: 6.8px;
+  padding-bottom: 6.8px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.navbar-item button {
+  color: #999;
+}
+.navbar-item :hover {
+  color: white;
+}
+.dropdown {
+  line-height: 24px;
+}
+.logo {
+  width: 85px;
+  height: 25px;
+}
+#search-drop-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#feedback-drop-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  font-size: 1rem;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  z-index: 1;
+  text-align: left;
+}
+.dropdown-item {
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  text-align: inherit;
+  background: 0 0;
+  border: 0;
+  color: #464646 !important;
+}
+nav a {
+  color: #999;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-item:hover {
+  background-color: #faf9fb;
+}
+
+.fb-show {
+  display: block;
+}
+.sh-show {
+  display: block;
+}
+
+/* .nav-search-icon {
+  cursor: pointer;
+  fill: #a99fa8;
+} */
+.site-search-wrapper {
+  display: flex;
+  background: #332532;
+  align-items: center;
+  width: 200px;
+  height: 25px;
+  padding-left: 30px;
+  color: #edf0f1;
+  border-radius: 3px;
+}
+.site-search {
+  border: none;
+  background-color: transparent;
+  color: #edf0f1;
+  outline: 0;
+  width: 100%;
+  font-size: 13px;
+}
+.right-group {
+  display: flex;
+  align-items: center;
+}
+
+.to-right {
+  margin-left: auto;
+}
+.margin-left {
+  margin-left: 16px;
+}
+.right-group a {
+  margin-left: 10px;
+  color: #999;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
